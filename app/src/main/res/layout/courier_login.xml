@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/kcportrait">
+    </LinearLayout>
+    <TextView
+        android:id="@+id/courier_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courier Login"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/courier_username"
+        android:layout_below="@+id/courier_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:background="@drawable/input_shape"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Username"
+        android:textColorHint="#000"
+        android:textColor="#000"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/courier_password"
+        android:layout_below="@+id/courier_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:background="@drawable/input_shape"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Password"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <Button
+        android:id="@+id/login_courier_button"
+        android:layout_below="@+id/courier_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/btn_shape"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/new_courier_button"
+        android:layout_below="@+id/login_courier_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Couier"
+        android:background="@drawable/btn_shape"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

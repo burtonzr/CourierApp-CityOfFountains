@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "364138934995",
+    "firebase_url": "https://cityoffountains-2e30c.firebaseio.com",
+    "project_id": "cityoffountains-2e30c",
+    "storage_bucket": "cityoffountains-2e30c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364138934995:android:113ede3466865a10a95a26",
+        "android_client_info": {
+          "package_name": "com.example.cityoffountains"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364138934995-gp45g0p27nhug1br8fvggv3lpv50sobb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cityoffountains",
+            "certificate_hash": "622e9c18f3ef2f8b74b562cd95f05f415c00cfbd"
+          }
+        },
+        {
+          "client_id": "364138934995-5jpehseegj166dbs6mjbvqgjbjnoio9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwIqq0TwqHKWz6zvjdHUbmJOP09O6V78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364138934995-5jpehseegj166dbs6mjbvqgjbjnoio9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

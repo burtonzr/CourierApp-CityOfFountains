@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/signupportrait">
+    </LinearLayout>
+    <TextView
+        android:id="@+id/signupTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"
+        android:textSize="34dp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:inputType="text"
+        android:layout_below="@+id/signupTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Name"
+        android:textColorHint="#000"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Email"
+        android:textColorHint="#000"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:inputType="phone"
+        android:layout_below="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Phone #"
+        android:textColorHint="#000"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_below="@+id/phone"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Username"
+        android:textColorHint="#000"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Password"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_below="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Confirm Password"
+        android:textColorHint="#000"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_below="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

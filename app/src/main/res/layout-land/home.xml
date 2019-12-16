@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homeland">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:text="City of Fountains Courier Service"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/createOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:text="Place Order"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="30dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"/>
+
+    <Button
+        android:id="@+id/viewMyOrders"
+        android:text="View My Orders"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="30dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"/>
+
+</FrameLayout>

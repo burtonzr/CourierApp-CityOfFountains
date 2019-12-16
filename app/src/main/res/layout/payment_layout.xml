@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/kcportrait2">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Complete Order"
+        android:gravity="center_horizontal"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/courier"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:background="@drawable/input_shape"
+                android:layout_marginTop="20dp"
+                android:hint="Courier"
+                android:textColorHint="#000"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/layout1"
+            android:id="@+id/layout2"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/deliveryAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:background="@drawable/input_shape"
+                android:layout_marginTop="20dp"
+                android:hint="Delivery Address"
+                android:textColorHint="#000"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/card_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:background="@drawable/input_shape"
+                android:layout_marginTop="20dp"
+                android:hint="Card Number"
+                android:textColorHint="#000"
+                android:textColor="#000" />
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:text="Place Order"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnPlaceOrder"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp">
+
+    </Button>
+</RelativeLayout>
